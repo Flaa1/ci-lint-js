@@ -1,7 +1,7 @@
 const { add, subtract } = require('../src/script');
 
 test('add', () => {
-  expect(add(2, 3)).toBe(6);
+  expect(add(2, 3)).toBe(5);
 });
 
 test('subtract', () => {
